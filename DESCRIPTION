@@ -1,0 +1,13 @@
+Package: siteselector
+Title: Rank Sampling Sites by Environmental Coverage of Target Species
+Version: 0.1.0
+Authors@R: person("K.D.", "Murray", email = "foss@kdmurray.id.au", role = c("aut", "cre"))
+Description: Orders candidate sampling sites so that collecting down the list
+    covers each target species' environmental range, using backward
+    elimination on a similarity kernel in whitened environment space.
+License: AGPL (>= 3)
+Encoding: UTF-8
+Imports: stats
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1
